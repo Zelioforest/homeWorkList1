@@ -1,6 +1,10 @@
-package pro.sky.homeWorkByList.model;
+package pro.sky.homeWorkByList.service;
 
 import org.springframework.stereotype.Service;
+import pro.sky.homeWorkByList.model.Employee;
+import pro.sky.homeWorkByList.exception.EmployeeAlreadyAddedException;
+import pro.sky.homeWorkByList.exception.EmployeeNotFoundException;
+import pro.sky.homeWorkByList.exception.EmployeeStorageIsFullException;
 
 @Service
 public class EmployeeService {

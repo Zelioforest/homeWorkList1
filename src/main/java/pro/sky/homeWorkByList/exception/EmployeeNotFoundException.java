@@ -1,4 +1,4 @@
-package pro.sky.homeWorkByList.model;
+package pro.sky.homeWorkByList.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
